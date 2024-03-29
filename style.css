@@ -1,0 +1,178 @@
+.navbar ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+
+}
+.navbar em{
+    color: chocolate;
+}
+.navbar{
+    border: solid 1px;
+    background-color: aliceblue;
+    border-radius: 13px;
+}
+.lower{
+align-self: self-end;
+}
+
+#main{
+    background-image: url(image/mountain.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-width: 700px;
+    min-height:550px ;
+
+}
+#travel{
+    color: white;
+}
+.button{
+    background-color: chocolate;
+    color: white;
+}
+#world{
+    text-align: center;
+}
+#place{
+    display: flex;
+}
+.image{
+    width: 280px;
+    height: 150px;
+    border-radius: 10px;
+}
+.great{
+    text-align: center;
+}
+.adventure{
+    text-align: center;
+}
+#feature{
+    display: flex;
+    gap: 22px;
+}
+#destination{
+    display: flex;
+    gap: 10px;
+}
+#sites{
+    display: flex;
+    gap: 20px;
+    
+}
+.country{
+background-image: url(image/florence.jpg);
+background-repeat:  no-repeat;
+background-size: cover;
+text-align: left;
+min-width: 200px;
+min-height:190px ;
+border-radius: 10px;
+
+}
+.state{
+    background-image: url(image/portCervo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    min-width: 270px;
+    min-height:250px ;
+    border-radius: 10px;
+
+
+} 
+.his{
+    background-image: url(image/rome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    min-width: 200px;
+    min-height:190px ;
+    border-radius: 10px;
+ 
+} 
+#reviews{
+    display: flex;
+    gap: 10px;
+}
+#blog{
+   display: flex ; 
+   gap: 10px;
+   text-align: center;
+}
+#italy{
+    background-image: url(image/florence.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-width: 200px;
+    min-height:190px ;
+    border-radius: 10px;
+    color:black;
+    
+}
+#question{
+    display: flex;
+    gap: 10px;
+}
+.statement{
+    background-color: chocolate;
+    color: white;
+    width:90% ;
+
+}
+#heroImage{
+    background-image: url(image/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    min-width: 200px;
+    min-height:190px ;
+    border-radius: 10px;
+    color:black;
+    text-align: center;
+
+}
+.shade{
+    background-color: chocolate;
+    border-radius: 5px;
+    padding: 10px;
+}
+#subscriber{
+    text-align: center;
+}
+.color em{
+color: chocolate;
+}
+#footer{
+    display: flex;
+    gap: 10px;
+
+}
+.input{
+    color:white;
+    background-color: chocolate;
+    border-radius: 3px;
+    padding:5px ;
+}
+#end{
+    text-align: center;
+}
+#icon{
+    display: flex;
+    gap: 5px;
+}
+
+@media all and (min-width:280px) and (max-width:1030px){
+#main{
+    background-image: url(image/mountain.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-width: 700px;
+    min-height:650px ;
+
+}    
+}    

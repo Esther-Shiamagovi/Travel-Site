@@ -1,0 +1,51 @@
+.navbar ul{
+    display: flex;
+    gap: 9px;
+    list-style: none;
+
+}
+.navbar{
+    border: solid 1px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#main{
+    background-image: url(image/mountain.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-width: 700px;
+    min-height:650px ;
+
+}
+#travel{
+    color: white;
+}
+.button{
+    background-color: chocolate;
+    color: white;
+}
+#world{
+    text-align: center;
+}
+#place{
+    display: flex;
+}
+.image{
+    width: 280px;
+    height: 150px;
+}
+
+
+@media all and (min-width:280px) and (max-width:1030px){
+#main{
+    background-image: url(image/mountain.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-width: 700px;
+    min-height:650px ;
+
+}    
+}    

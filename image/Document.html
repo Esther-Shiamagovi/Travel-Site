@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta nanmame="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/style.css">
+    <link rel="stylesheet" href="./Document_files/all.min.css">
+</head>
+<body cz-shortcut-listen="true">
+<div id="main">
+
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li><a>About Us</a></li>
+            <li><a>Services</a></li>
+            <li><a>TRAVELWORLD</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact Us</a></li>
+        </ul>
+        </div>
+    
+        <div id="travel">
+            <h1> Life Through</h1>
+            <h1>Travel &amp; Enjoyment</h1>
+            <br>
+            <p>Discover Your Next Great Adventure ,Become An Explorer</p>
+            <p>To Get Started!</p>
+            <button class="button">Book A Trip Now</button>
+           
+        </div>
+
+
+    </div> 
+    <div id="world">
+        <h1>Dive Into The Beauty Of The World</h1>
+        <p>It is a long establishment fact that page when will be distracted by the readable content of <br>
+            a page when looking at its layout.</p>
+    </div>
+    <div id="place">
+        <div class="cayon">
+            <img src="./Document_files/sunset.avif" alt="" class="image">
+            <br>
+            <h1>Grand Canyon</h1>
+            <p>It is a long established fact that a reader will be distracted <br>
+            by the readable content of page when looking</p>
+        </div>
+        <div class="bora">
+        <img src="./Document_files/beach.webp" alt="" class="image">
+        <br>
+        <h1>Bora Bora</h1>
+        <p>It is a long established fact that a reader will be distracted <br>
+            by the readable content of page when looking</p>
+       </div>
+       <div>
+       <div class="angkor">
+        <img src="./Document_files/historic.jpg" alt="" class="image">
+        <br>
+        <h1>Angkor Wat</h1> 
+        <p>It is a long established fact that a reader will be distracted <br>
+            by the readable content of page when looking</p>
+        </div>
+       </div>
+    </div>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
